@@ -1,0 +1,243 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+.main-page {
+    width: 100%;
+    background: linear-gradient(271deg, #a5deff 1.14%, #fcfefe 100%);
+}
+
+
+.main-page-text-container {
+    border-radius: 40px;
+    background: #fff;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    position: relative;
+}
+
+.main-page-title2 {
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+
+.main-page-title1 {
+
+    font-weight: 600;
+    font-size: 64px;
+
+    line-height: 112%;
+    color: #1b1d1f;
+    margin-bottom: 24px;
+    margin-top: 0;
+
+}
+
+.main-page-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.main-page-button {
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    background: #ff6b0a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    line-height: 150%;
+    color: #fff;
+}
+
+.logo-black {
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.facts {
+    padding-top: 48px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.facts-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.facts-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    margin: auto;
+    width: 772px;
+}
+
+.facts-trezub {
+    margin-bottom: 24px;
+}
+
+.facts-item-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.facts-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.facts-item {
+    width: calc((100% / 3) - (24px * 2) / 3);
+}
+
+.form-container {
+    background: linear-gradient(271deg, #a5deff 1.14%, #fcfefe 100%);
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.form {
+    border-radius: 40px;
+
+    background: #fff;
+    padding: 32px 60px 60px 60px;
+    box-sizing: border-box;
+}
+
+.form-trezub {
+    margin-bottom: 32px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    color: #1b1d1f;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.form-field-mame {
+    margin-bottom: 24px;
+}
+
+.form-label {
+    font-weight: 400;
+    font-size: 16px;
+
+    line-height: 150%;
+    color: #1b1d1f;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    border: 1px solid #005bbb;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #1b1d1f;
+    padding: 12px 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.form-button {
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 172px;
+    height: 48px;
+    background: #ff6b0a;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.form-field-email {
+    margin-bottom: 48px;
+}
+
+.gus-anim {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
